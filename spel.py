@@ -8,5 +8,10 @@ class Monster:
     def __init__(self, typ, hp, attack):
         self.typ = typ
         self.hp = hp
+        self.attack = attack 
+
+    def Attack(self, attack):
         self.attack = attack
-        
+player = Player('Hero', 40,115)
+
+
